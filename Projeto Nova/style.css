@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000; /* Garante que o título esteja acima de outros elementos */
+}
+
+header#home {
+    margin-top: 60px; /* Ajuste conforme a altura do título */
+    padding: 10px;
+}
+
+.intro-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.btn-revolucionario {
+    background-color: #c8102e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
